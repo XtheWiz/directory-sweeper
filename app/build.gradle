@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
     defaultConfig {
-        applicationId "com.example.xthewiz.delthemall"
+        applicationId "com.chubbycat.xthewiz.delthemall"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
@@ -36,5 +36,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.nononsenseapps:filepicker:3.1.0'
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
-    compile files('libs/environment3.jar')
 }

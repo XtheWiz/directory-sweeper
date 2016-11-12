@@ -1,4 +1,4 @@
-package com.example.xthewiz.delthemall.media;
+package com.chubbycat.xthewiz.delthemall.media;
 
 /*
  * Copyright (C) 2014 NextApp, Inc.

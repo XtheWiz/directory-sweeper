@@ -1,4 +1,4 @@
-package com.example.xthewiz.delthemall;
+package com.chubbycat.xthewiz.delthemall;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

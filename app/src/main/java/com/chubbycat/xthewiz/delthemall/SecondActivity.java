@@ -1,9 +1,7 @@
-package com.example.xthewiz.delthemall;
+package com.chubbycat.xthewiz.delthemall;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.app.TimePickerDialog;
 import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
@@ -11,10 +9,6 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.os.Environment;
-import android.provider.DocumentsContract;
-import android.support.annotation.IntegerRes;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.provider.DocumentFile;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,24 +16,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.TimePicker;
 import android.widget.Toast;
-import android.widget.ToggleButton;
 
-import com.example.xthewiz.delthemall.picker.FilePickerActivity;
-import com.faraji.environment3.Environment3;
-import com.faraji.environment3.NoSecondaryStorageException;
+import com.chubbycat.xthewiz.delthemall.picker.FilePickerActivity;
 
-import org.apache.commons.io.FileUtils;
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URI;
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class SecondActivity extends AppCompatActivity {
 

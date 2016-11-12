@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package com.example.xthewiz.delthemall.picker;
+package com.chubbycat.xthewiz.delthemall.picker;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -16,7 +16,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.content.Loader;
 import android.support.v7.util.SortedList;
 import android.support.v7.widget.util.SortedListAdapterCallback;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.nononsenseapps.filepicker.AbstractFilePickerFragment;

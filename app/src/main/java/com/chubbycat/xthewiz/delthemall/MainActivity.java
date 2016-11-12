@@ -1,21 +1,10 @@
-package com.example.xthewiz.delthemall;
+package com.chubbycat.xthewiz.delthemall;
 
-import android.app.Activity;
-import android.app.TimePickerDialog;
-import android.content.ClipData;
 import android.content.Intent;
-import android.net.Uri;
-import android.os.Build;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.TimePicker;
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
